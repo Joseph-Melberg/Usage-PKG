@@ -17,8 +17,5 @@ $(objects): %.o: %.c
 %.c:
 	touch $@
 
-testit:
-	./all rabbit.centurionx.net 5672 lifesecure pW1c8Qq7xdMqhZ7q
-
 clean:
 	rm -f *.o all
