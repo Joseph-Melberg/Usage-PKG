@@ -1,0 +1,5 @@
+Package: myapp
+Version: 0.1
+Maintainer: Jan Bronicki
+Architecture: amd64
+Description: My App

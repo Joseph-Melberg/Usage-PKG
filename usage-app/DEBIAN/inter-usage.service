@@ -1,0 +1,13 @@
+[Unit]
+Description=Usage for Remote Pis
+After=network.target
+
+[Service]
+User=root
+Group=root
+ExecStart=/usr/bin/all
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target
